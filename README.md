@@ -4,7 +4,7 @@
 
 For interactive mode just run ```wmic``` from there use “quit” or “exit” to terminate again.
 
-Getting to know the system
+Getting to know the system:
 
 ```
 wmic bios get Manufacturer,Name,Version             # System details
