@@ -61,7 +61,7 @@ ntevent | where (LogFile=’system’ and SourceName=’W32Time’) get Message,
 ntevent | where (LogFile=’system’ and SourceName=’W32Time’ and Message like ‘%timesource%’) get Message, TimeGenerated
 ntevent | where (LogFile=’system’ and SourceName=’W32Time’ and EventCode!=’29’) get TimeGenerated, EventCode, Message
 onboarddevice | get Description, DeviceType, Enabled, Status
-os | get Version, Caption, CountryCode, CSName, Description, InstallDate, SerialNumber, ServicePackMajorVersion, WindowsDirectory /format:list
+os | get Version, Caption, CountryCode, CSName, Description, InstallDate, SerialNumber, ServicePackMajorVersion, WindowsDirectory
 os | get CurrentTimeZone, FreePhysicalMemory, FreeVirtualMemory, LastBootUpTime, NumberofProcesses, NumberofUsers, Organization, RegisteredUser, Status
 pagefile | get Caption, CurrentUsage, Status, TempPageFile
 pagefileset | get Name, InitialSize, MaximumSize
