@@ -25,11 +25,11 @@ baseboard | get Manufacturer, Model, Name, PartNumber, slotlayout, serialnumber,
 bios | get name, version, serialnumber
 bootconfig | get BootDirectory, Caption, TempDirectory, Lastdrive
 cdrom | get Name, Drive, Volumename
-computersystem | get Name, domain, Manufacturer, Model, NumberofProcessors, PrimaryOwnerName,Username, Roles, totalphysicalmemory /format:list
+computersystem | get Name, domain, Manufacturer, Model, NumberofProcessors, PrimaryOwnerName,Username, Roles, totalphysicalmemory
 cpu | get Name, Caption, MaxClockSpeed, DeviceID, status
 datafile | where name=’c:\\boot.ini’ get Archive, FileSize, FileType, InstallDate, Readable, Writeable, System, Version
-dcomapp | get Name, AppID /format:list
-desktop | get Name, ScreenSaverExecutable, ScreenSaverActive, Wallpaper /format:list
+dcomapp | get Name, AppID
+desktop | get Name, ScreenSaverExecutable, ScreenSaverActive, Wallpaper
 desktopmonitor | get screenheight, screenwidth
 diskdrive | get Name, Manufacturer, Model, InterfaceType, MediaLoaded, MediaType
 diskquota | get User, Warninglimit, DiskSpaceUsed, QuotaVolume
