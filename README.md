@@ -19,7 +19,6 @@ wmic startup list full                              # Start-up programs
 
 ## Useful Aliases
 
-```
 Aliases | Switch
 --- | --- 
 baseboard | get Manufacturer, Model, Name, PartNumber, slotlayout, serialnumber, poweredon
@@ -88,4 +87,3 @@ systemslot | get Number, SlotDesignation, Status, SupportsHotPlug, Version, Curr
 tapedrive | get Name, Capabilities, Compression, Description, MediaType, NeedsCleaning, Status, StatusInfo
 timezone | get Caption, Bias, DaylightBias, DaylightName, StandardName
 useraccount | get AccountType, Description, Domain, Disabled, LocalAccount, Lockout, PasswordChangeable, PasswordExpires, PasswordRequired, SID
-```
